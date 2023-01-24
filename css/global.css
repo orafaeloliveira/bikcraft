@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
     --w: #FFFFFF;
     --c1: #F7F7F7;
@@ -41,25 +45,51 @@
 
 .header {
     background-color: var(--c12);
-    padding: 32px 0px 32px 0px;
 }
 
 .header a {
     color: var(--w);
     text-decoration: none;
-    font: 400 18px/32px Poppins;
 }
 
-.container {
-    width: 80vw;
-    height: 32px;
-    margin: auto;
+.header-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 20px;
 }
 
-.list {
+.header-list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
+}
+
+.header-list a {
+    padding: 16px 0px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    .header-list {
+        gap: 20px;
+    }
+    .header-list a {
+        background-color: var(--c11);
+        border-radius: 4px;
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-list a {
+        gap: 12px;
+    }
 }
