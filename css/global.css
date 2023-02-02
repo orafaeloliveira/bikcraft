@@ -44,7 +44,10 @@ img {
     --p3: #A66F00;
     --p4: #664400;
     --p5: #332200;
-    --font-1-xxl: 600 64px/72px Poppins;
+    --gradient-1: linear-gradient(#FFBF00, #F2A50C);
+    --gradient-2: linear-gradient(#ffb60d, #e59317);
+    --shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    --font-1-xxl: 600 64px/1.125 Poppins;
     --font-1-xl: 600 32px/10px Poppins;
     --font-1-l: 400 24px/36px Poppins;
     --font-2-l: 400 24px/36px Roboto;
