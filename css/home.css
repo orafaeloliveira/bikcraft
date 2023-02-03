@@ -2,12 +2,13 @@
 
 .introducao-bg {
     background-color: var(--c12);
+    color: var(--w);
+    box-shadow: inset 0px -120px var(--w);
 }
 
 .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: var(--w);
     gap: 0px 40px;
     max-width: 1200px;
     box-sizing: border-box;
@@ -17,20 +18,22 @@
 
 .introducao-conteudo {
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
 }
 
 .introducao-conteudo h1 {
-    font-size: 64px;
-    line-height: 1.125;
+    font: var(--font-1-xxl);
     margin-bottom: 32px;
+}
+
+.introducao-conteudo span {
+    color: var(--p1);
 }
 
 .introducao-conteudo p {
     margin-bottom: 20px;
     color: var(--c5);
-    font-size: 24px;
-    line-height: 1.5;
+    font: var(--font-2-l);
 }
 
 .introducao-conteudo a {
@@ -45,4 +48,9 @@
 
 .introducao-conteudo a:hover {
     background: var(--gradient-2);
+}
+
+.introducao-imagem img {
+    height: 100%;
+    object-fit: cover;
 }
