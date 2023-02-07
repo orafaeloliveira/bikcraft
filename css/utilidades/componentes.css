@@ -1,0 +1,13 @@
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    background: var(--gradient-1);
+    color: var(--p5);
+    font: var(--font-1-m-b);
+    border-radius: 4px;
+}
+
+.botao:hover {
+    background: var(--gradient-2);
+}
