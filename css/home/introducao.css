@@ -1,7 +1,7 @@
 .introducao-bg {
-    background-color: var(--c12);
+    background-color: var(--cor-12);
     color: var(--w);
-    box-shadow: inset 0px -120px var(--w);
+    box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -30,7 +30,7 @@
 
 .introducao-conteudo p {
     margin-bottom: 20px;
-    color: var(--c5);
+    color: var(--cor-5);
     font: var(--font-2-l);
 }
 
