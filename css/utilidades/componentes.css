@@ -23,6 +23,25 @@
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+.link {
+    display: inline-block;
+    color: var(--cor-p1);
+    text-transform: uppercase;
+    font: 500 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.link::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: currentColor;
+}
+
+.link:hover {
+    color: var(--cor-0);
+}
+
 @media (max-width: 600px) {
     .botao{
         padding: 12px 16px;
