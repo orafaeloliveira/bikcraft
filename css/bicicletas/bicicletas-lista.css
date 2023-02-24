@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+    width: max-content;
 }
 
 .bicicletas-lista h3::before {
