@@ -26,7 +26,7 @@
     font-style: italic;
 }
 
-.depoimento p::after, .depoimento p::before {
+.depoimento p::before, .depoimento p::after {
     position: absolute;
     font-size: 5rem;
     color: var(--cor-p2);
