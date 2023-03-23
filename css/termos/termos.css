@@ -1,0 +1,14 @@
+.termo-bg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.termo h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.termo p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+}
