@@ -29,6 +29,20 @@
     color: var(--cor-2);
 }
 
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background-image: url(../../img/icones/seta.svg);
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px);
+    transition: transform 0.2s;
+}
+
 .link {
     display: inline-block;
     color: var(--cor-p1);
