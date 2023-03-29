@@ -1,3 +1,7 @@
+.bicicletas-bg {
+    background-image: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
+}
+
 .bicicletas {
     padding-top: 60px;
     padding-bottom: 60px;
