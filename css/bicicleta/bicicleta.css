@@ -1,0 +1,35 @@
+.bicicleta {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.bicicleta-conteudo h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    margin-bottom: 12px;
+}
+
+.bicicleta-comprar {
+    display: grid;
+    grid-template-columns: max-content auto;
+    justify-items: start;
+    align-items: center;
+    gap: 8px 12px;
+    margin-bottom: 40px;
+}
+
+.bicicleta-comprar a {
+    grid-row: span 2;
+}
+
+.bicicleta-comprar span {
+    background-color: var(--cor-12);
+    align-items: center;
+    display: flex;
+    padding: 4px 8px;
+    gap: 8px;
+    border-radius: 4px;
+}
