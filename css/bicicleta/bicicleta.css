@@ -31,13 +31,23 @@
     display: grid;
     grid-template-columns: max-content auto;
     justify-items: start;
-    align-items: center;
+    align-items: start;
     gap: 8px 12px;
     margin-bottom: 40px;
 }
 
+.comprar-bug {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.comprar-bug span {
+    width: max-content;
+}
+
 .bicicleta-conteudo > p {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .bicicleta-conteudo h2 {

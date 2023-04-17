@@ -37,22 +37,25 @@
         </div>
         <article class="bicicleta container">
             <div class="bicicleta-imagens">
-                <img src="../img/bicicletas/nimbus.jpg" alt="Bicicleta preta">
-                <img src="../img/bicicletas/magic.jpg" alt="">
-                <img src="../img/bicicletas/nebula.jpg" alt="">
+                <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta preta">
+                <img src="../img/bicicleta/nimbus2.jpg" alt="">
+                <img src="../img/bicicleta/nimbus3.jpg" alt="">
             </div>
             <div class="bicicleta-conteudo">
                 <p class="font-2-l cor-5">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                 <div class="bicicleta-comprar">
                     <a href="../orcamento.html" class="botao">comprar agora</a>
-                    <span class="font-1-xs cor-6">
-                        <img src="../img/icones/entrega.svg" alt="">
-                        entrega em 5 dias
-                    </span>
-                    <span class="font-1-xs cor-6">
-                        <img src="../img/icones/estoque.svg" alt="">
-                        18 em estoque
-                    </span>
+                    <!-- por algum motivo criava-se um grid com 3 colunas mesmo especificando apenas 2 -->
+                    <div class="comprar-bug">
+                        <span class="font-1-xs cor-6">
+                            <img src="../img/icones/entrega.svg" alt="">
+                            entrega em 5 dias
+                        </span>
+                        <span class="font-1-xs cor-6">
+                            <img src="../img/icones/estoque.svg" alt="">
+                            18 em estoque
+                        </span>
+                    </div>
                 </div>
                 <h2 class="font-1-xs cor-0">informações</h2>
                 <ul class="bicicleta-vantagem font-2-xs cor-5">
@@ -90,7 +93,38 @@
         </article>
     </main>
 
-    
+    <article class="bicicletas-lista container">
+        <h2 class="font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
+        <ul>
+            <li>
+                <a href="../bicicletas.html">
+                    <img src="../img/bicicletas/magic.jpg" alt="Bicicleta Magic Might">
+                    <h3 class="font-1-xl">Magic Might</h3>
+                    <span class="font-2-m cor-8">R$ 2499</span>
+                </a>
+            </li>
+            <li>
+                <a href="../bicicletas.html">
+                    <img src="../img/bicicletas/nebula.jpg" alt="Bicicleta Nebula Cosmic">
+                    <h3 class="font-1-xl">Nebula Cosmic</h3>
+                    <span class="font-2-m cor-8">R$ 3999</span>
+                </a>
+            </li>
+        </ul>
+    </article>
+
+    <article class="seguro-bg">
+        <div class="seguro container">
+            <div class="seguro-imagem">
+                <img src="../img/fotos/seguros.jpg" alt="Pessoa em uma bicicleta">
+            </div>
+            <div class="seguro-conteudo">
+                <h2 class="font-1-xxl cor-0">Pedale mais tranquilo com nosso <span class="cor-p1">seguro.</span></h2>
+                <p class="font-2-l cor-5">Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
+                <a href="../seguros.html" class="botao">conheça mais</a>
+            </div>
+        </div>
+    </article>
 
     <footer class="footer-bg">
         <div class="footer container">
@@ -122,4 +156,5 @@
         </div>
     </footer>
 </body>
+
 </html>
