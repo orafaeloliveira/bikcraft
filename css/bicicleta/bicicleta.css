@@ -1,5 +1,5 @@
 #bicicleta .titulo p {
-    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .bicicleta {
@@ -32,7 +32,7 @@
     grid-template-columns: max-content auto;
     justify-items: start;
     align-items: start;
-    gap: 8px 12px;
+    gap: 0 12px;
     margin-bottom: 40px;
 }
 
@@ -79,7 +79,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .bicicleta-conteudo ul img {
