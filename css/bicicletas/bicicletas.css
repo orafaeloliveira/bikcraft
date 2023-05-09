@@ -20,7 +20,7 @@
     align-self: start;
 }
 
-.bicicletas img, span {
+.bicicletas img, .biciletas span {
     grid-area: 1/-1;
 }
 

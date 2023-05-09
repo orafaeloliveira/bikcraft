@@ -28,7 +28,8 @@
 
 .footer-contato li:nth-child(even):after {
     content: "";
-    border-bottom: 2px solid var(--cor-11);
+    height: 2px;
+    background: var(--cor-11);
     max-width: 360px;
     display: block;
     margin-top: 16px;
@@ -40,5 +41,25 @@
 }
 
 .footer-copy {
+    grid-column: 1/-1;
     margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .footer > img {
+        display: none;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+@media (max-width: 600px) {
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .footer-copy {
+        margin-top: 0;
+    }
 }
