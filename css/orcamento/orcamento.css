@@ -1,0 +1,46 @@
+.orcamento {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.orcamento h2 {
+    text-transform: uppercase;
+}
+
+.orcamento-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-content: start;
+    background-color: var(--cor-12);
+    padding: 60px;
+}
+
+.orcamento-produto > * {
+    grid-column: 1/-1;
+}
+
+.orcamento-produto input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.orcamento-produto label {
+    padding: 16px 16px;
+    background-color: var(--cor-10);
+    color: var(--cor-4);
+    border-radius: 4px;
+    display: inline-block;
+    grid-column: initial;
+}
+
+.orcamento-produto input:checked + label {
+    background-color: var(--cor-0);
+    color: var(--cor-11);
+}
+
+.orcamento-dados {
+    background-color: var(--cor-0);
+}
+
