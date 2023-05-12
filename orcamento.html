@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
-<body id="termos">
+<body id="orcamento">
     <header class="header-bg">
         <div class="header container">
             <a href="./">
@@ -38,13 +38,13 @@
         <div class="orcamento container">
             <div class="orcamento-produto">
                 <h2 class="font-1-xs cor-5">bikcraft ou seguro?</h2>
-                <input type="radio" name="produto" id="bikcraf" value="bikcraft">
+                <input type="radio" name="tipo" id="bikcraft" value="bikcraft">
                 <label for="bikcraft">Bikcraft</label>
-                <input type="radio" name="produto" id="seguro" value="seguro">
+                <input type="radio" name="tipo" id="seguro" value="seguro">
                 <label for="seguro">Seguro</label>
             </div>
             <div class="orcamento-dados form">
-                <h2 class="font-1-xs cor-9">dados pessoais</h2>
+                <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
                 <div>
                     <label for="nome">Nome</label>
                     <input type="text" id="nome" name="nome">
@@ -53,6 +53,15 @@
                     <label for="sobrenome">Sobrenome</label>
                     <input type="text" id="sobrenome" name="sobrenome">
                 </div>
+                <div class="col-2">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                </div>
+                <div class="col-2">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <h2 class="font-1-xs">entrega</h2>
             </div>
         </div>
     </main>
