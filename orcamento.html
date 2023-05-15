@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcraft - Bicicletas Elétricas</title>
+    <title>Orçamento | Bikcraft</title>
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,6 +42,32 @@
                 <label for="bikcraft">Bikcraft</label>
                 <input type="radio" name="tipo" id="seguro" value="seguro">
                 <label for="seguro">Seguro</label>
+                <div class="orcamento-conteudo" id="orcamento-bikcraft">
+                    <h2 class="font-1-xs cor-5">escolha a sua</h2>
+                    <div>
+                        <input type="radio" name="produto" id="nimbus" value="nimbus">
+                        <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="produto" id="magic" value="magic">
+                        <label for="magic">Magic Might <span>R$ 2499</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="produto" id="nebula" value="nebula">
+                        <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
+                    </div>
+                </div>
+                <div class="orcamento-conteudo" id="orcamento-seguro">
+                    <h2 class="font-1-xs cor-5">escolha o plano</h2>
+                    <div>
+                        <input type="radio" name="produto" id="prata" value="prata">
+                        <label for="prata">Prata <span>R$ 199</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="produto" id="ouro" value="ouro">
+                        <label for="ouro">Ouro <span>R$ 299</span></label>
+                    </div>
+                </div>
             </div>
             <div class="orcamento-dados form">
                 <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
@@ -59,9 +85,34 @@
                 </div>
                 <div class="col-2">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" id="email" name="email">
                 </div>
-                <h2 class="font-1-xs">entrega</h2>
+                <h2 class="font-1-xs col-2">entrega</h2>
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep">
+                </div>
+                <div>
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero">
+                </div>
+                <div>
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" id="logradouro" name="logradouro">
+                </div>
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado">
+                </div>
+                <button class="botao col-2">solicite orçamento</button>
             </div>
         </div>
     </main>
@@ -94,7 +145,7 @@
                 <ul class="font-1-m cor-5">
                     <li><a href="./bicicletas.html">Bicicletas</a></li>
                     <li><a href="./seguros.html">Seguros</a></li>
-                    <li><a href="./contato.html">Contatos</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
                     <li><a href="./termos.html">Termos e Condições</a></li>
                 </ul>
             </div>
