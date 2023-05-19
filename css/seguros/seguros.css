@@ -1,12 +1,11 @@
 .seguros-bg {
-    background-color: var(--cor-11);
+    background: var(--cor-11) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
 }
 
 .seguros {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    padding-top: 60px;
     padding-bottom: 60px;
     align-items: center;
 }

@@ -1,5 +1,8 @@
 .depoimento {
-    background-color: var(--cor-p1);
+    background: var(--cor-p1);
+    background-image: url(../../img/dec/top-left-p.svg), url(../../img/dec/bottom-right-p.svg);
+    background-position: top 20px left 55%, bottom 20px right 20px;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
@@ -40,6 +43,13 @@
 
 .depoimento p::after {
     content: "”";
+}
+
+@media (max-width: 1100px) {
+    .depoimento {
+        background-image: url(../../img/dec/bottom-right-p.svg);
+        background-position: bottom 20px right 20px;
+    }
 }
 
 @media (max-width: 800px) {

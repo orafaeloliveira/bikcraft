@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
 }
 
 .bicicletas-imagem {
@@ -20,8 +21,8 @@
     align-self: start;
 }
 
-.bicicletas img, .biciletas span {
-    grid-area: 1/-1;
+.bicicletas img, .bicicletas span {
+    grid-area: 1/1;
 }
 
 .bicicletas-imagem span {
