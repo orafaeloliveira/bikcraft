@@ -60,4 +60,7 @@
     .perguntas h2 {
         margin-bottom: 40px;
     }
+    .perguntas dt {
+        margin-bottom: 0;
+    }
 }

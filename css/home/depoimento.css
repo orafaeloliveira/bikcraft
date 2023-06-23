@@ -47,8 +47,7 @@
 
 @media (max-width: 1100px) {
     .depoimento {
-        background-image: url(../../img/dec/bottom-right-p.svg);
-        background-position: bottom 20px right 20px;
+        background-image: none;
     }
 }
 

@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
     align-items: center;
 }
@@ -61,7 +62,12 @@
 }
 
 @media (max-width: 800px) {
+    .seguros-bg {
+        background: var(--cor-11);
+    }
     .seguros {
         grid-template-columns: 1fr;
+        padding-top: 0;
+        padding-bottom: 40px;
     }
 }

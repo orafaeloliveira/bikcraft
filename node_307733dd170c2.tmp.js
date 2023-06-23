@@ -110,39 +110,39 @@
         <div class="depoimento-conteudo">
             <blockquote class="font-1-xl cor-p5">
                 <p>
-                    Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi itensificar o meu amor por esta atividade. Recomendo à todos que amo.
+                Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi itensificar o meu amor por esta atividade. Recomendo à todos que amo.
                 </p>
-            </blockquote>
+        </blockquote>
             <span class="font-1-m-b cor-p4">Ana Júlia</span>
         </div>
     </section>
     <article class="seguros-bg">
         <div class="seguros container">
-            <div class="seguros-item">
-                <h3 class="font-1-xl cor-6">PRATA</h3>
-                <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
-                <ul class="font-2-m cor-0">
-                    <li>Duas trocas por ano</li>
-                    <li>Assistência técnica</li>
-                    <li>Suporte 08h às 18h</li>
-                    <li>Cobertura estadual</li>
-                </ul>
-                <a href="./seguros.html" class="botao secundario">inscreva-se</a>
-            </div>
-            <div class="seguros-item">
-                <h3 class="font-1-xl cor-p1">OURO</h3>
-                <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
-                <ul class="font-2-m cor-0">
-                    <li>Cinco trocas por ano</li>
-                    <li>Assistência especial</li>
-                    <li>Suporte 24h</li>
-                    <li>Cobertura nacional</li>
-                    <li>Desconto em parceiros</li>
-                    <li>Acesso ao Clube Bikcraft</li>
-                </ul>
-                <a href="./seguros.html" class="botao">inscreva-se</a>
-            </div>
+        <div class="seguros-item">
+            <h3 class="font-1-xl cor-6">PRATA</h3>
+            <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
+            <ul class="font-2-m cor-0">
+                <li>Duas trocas por ano</li>
+                <li>Assistência técnica</li>
+                <li>Suporte 08h às 18h</li>
+                <li>Cobertura estadual</li>
+            </ul>
+            <a href="./seguros.html" class="botao secundario">inscreva-se</a>
         </div>
+        <div class="seguros-item">
+            <h3 class="font-1-xl cor-p1">OURO</h3>
+            <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
+            <ul class="font-2-m cor-0">
+                <li>Cinco trocas por ano</li>
+                <li>Assistência especial</li>
+                <li>Suporte 24h</li>
+                <li>Cobertura nacional</li>
+                <li>Desconto em parceiros</li>
+                <li>Acesso ao Clube Bikcraft</li>
+            </ul>
+            <a href="./seguros.html" class="botao">inscreva-se</a>
+        </div>
+    </div>
     </article>
     <footer class="footer-bg">
         <div class="footer container">
@@ -179,7 +179,6 @@
             <p class="footer-copy font-2-m cor-5">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
-    <script src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 </body>
-
 </html>

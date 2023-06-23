@@ -137,3 +137,26 @@
 .termos a {
     text-decoration: underline;
 }
+
+.orcamento-detalhes {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: var(--cor-0);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.orcamento-detalhes li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.orcamento-detalhes li img {
+  width: 16px;
+}
+
+.orcamento-produto input:checked + label + .orcamento-detalhes {
+  display: grid;
+}

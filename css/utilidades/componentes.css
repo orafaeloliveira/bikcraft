@@ -82,6 +82,9 @@
         padding: 12px 16px;
         font-size: 1rem;
     }
+    .titulo {
+        background: var(--cor-11);
+    }
 }
 
 @media (max-width: 800px) {
